@@ -1,7 +1,7 @@
 import cv2
 
 image_path = input("Enter image path: ")
-output_name = input("Enter name for grayscale image (e.g. gray.jpg): ")
+output_name = input("Enter name for grayscale image : ")
 
 image = cv2.imread(image_path)
 
